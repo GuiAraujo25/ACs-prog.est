@@ -38,9 +38,9 @@ def selecionar_notas(ap1, ap2, asub):
     AP1 ou a AP2, aquela que tiver a menor nota. Se a AS for menor que as duas,
     retorna apenas a AP1 e a AP2.
     """
-    if ap1 < asub:
+    if ap1 < asub and ap1< ap2:
         return asub, ap2
-    elif ap2 < asub:
+    elif ap2 < asub and ap2<ap1:
         return asub, ap1
     else:
         return ap1, ap2
