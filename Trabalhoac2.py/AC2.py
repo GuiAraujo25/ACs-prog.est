@@ -20,90 +20,10 @@ def bissexto(ano):
          
 
 
-#Exercício 2:
-def calcular_salario(valor_hora, num_horas, irpf):
-   irpf = 0.275
-   valor_hora = float(input("Digite o valor do salário por hora:"))
-   num_horas = float(input("Digite o numero de horas trabalhadas no mês:"))
-
-   salario_líquido = ((valor_hora * num_horas) * irpf)
-
-   return salario_líquido
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   #Exercício 2:
+  #Exercício 2:
 def calcular_salario(valor_hora, num_horas, irpf):
    irpf = 0.275
    salario_líquido = (valor_hora * num_horas -(valor_hora * num_horas * irpf))
    print(salario_líquido)
     
-
-calcular_salario(5, 4)
-
-
+calcular_salario(5, 4)   
