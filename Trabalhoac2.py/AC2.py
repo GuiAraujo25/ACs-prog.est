@@ -21,9 +21,9 @@ def bissexto(ano):
 
 
   #Exercício 2:
-def calcular_salario(valor_hora, num_horas, irpf):
-   irpf = 0.275
+def calcular_salario(valor_hora, num_horas, irpf = 0.275):
    salario_líquido = (valor_hora * num_horas -(valor_hora * num_horas * irpf))
    print(salario_líquido)
     
-calcular_salario(5, 4)   
+
+calcular_salario(5, 4)
