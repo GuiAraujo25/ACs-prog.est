@@ -7,7 +7,7 @@ def jogo():
     atqm = random.randint(20, 30)
     atqa = random.randint(10, 20)
     print("aventureiro: vida -", va, "att -", atqa, "def -", da )
-    print("monstro: vida -", vm, "att -", atqm)
+    print("monstruoso: vida -", vm, "att -", atqm)
 
     rodada = 0
 
@@ -16,7 +16,7 @@ def jogo():
         vm = vm - random.randint(1, atqa)
         if vm <= 0:
             print("rodada",rodada)
-            print("o monstro morreu!")
+            print("o monstruoso morreu!")
         else:
             dano = random.randint(1, atqm) - da
             if dano > 0:             
@@ -29,7 +29,7 @@ def jogo():
             else: 
                 print("rodada", rodada)
                 print("aventureiro: vida -", va, "att -", atqa, "def -", da )
-                print("monstro: vida -", vm, "att -", atqm)
+                print("monstruoso: vida -", vm, "att -", atqm)
 
 jogo()
 
